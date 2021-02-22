@@ -1,6 +1,6 @@
 <template lang="pug">
 v-app
-  app-header
+  app-header(:appTitle="appTitle")
   v-main
     v-container
       v-row.d-flex.flex-column.justify-center.align-center
@@ -16,6 +16,11 @@ import AppFooter from './components/AppFooter'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      appTitle: "Our Place"
+    }
+  },
   components: {
     HomePage,
     AppHeader,

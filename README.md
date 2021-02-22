@@ -1,4 +1,4 @@
-# vue_pug_scss_bootstrap_firebase_template 
+# Our Place
 
 ## Project setup
 ```
